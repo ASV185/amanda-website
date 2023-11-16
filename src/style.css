@@ -1,7 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: black;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero-heading {
+  backdrop-filter: blur(6px);
 }
 
 body {
@@ -16,15 +21,17 @@ h3 {
 
 h1 {
   font-size: 96px;
+  text-shadow: var(--text-shadow);
 }
 
 h2 {
   font-size: 48px;
+  text-shadow: var(--text-shadow);
 }
 
 h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 30px;
+  text-shadow: var(--text-shadow);
 }
 
 p {
@@ -55,10 +62,15 @@ p {
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
+  font-weight: 500;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+  color: var(--primary-color);
 }
 
 .homepage-link {
