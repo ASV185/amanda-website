@@ -11,6 +11,11 @@ nav .navbar-brand {
   font-weight: 600;
 }
 
+nav .navbar-brand:hover {
+  transform: translateX(10px) scale(1.2);
+  text-shadow: 0 5px 10px var(--secondary-color);
+}
+
 .navbar-nav {
   line-height: 2;
   padding: 10px;
