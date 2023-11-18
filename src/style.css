@@ -112,3 +112,9 @@ footer .social-media h4 {
   font-family: "Roboto Slab", serif;
   font-weight: 500;
 }
+
+footer .credit-footer {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
