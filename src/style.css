@@ -122,3 +122,20 @@ footer .credit-footer {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
+.project-section h2 {
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.project-section img:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.project-section h3 {
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
