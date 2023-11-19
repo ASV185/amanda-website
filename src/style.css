@@ -139,3 +139,16 @@ footer .credit-footer {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
+.skills-section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.certificates-section .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
