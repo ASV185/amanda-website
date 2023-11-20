@@ -130,7 +130,7 @@ footer .credit-footer {
 }
 
 .project-section img:hover {
-  border: 2px solid black;
+  border: 2px solid var(--primary-color);
   cursor: pointer;
 }
 
@@ -173,4 +173,9 @@ footer .credit-footer {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
+}
+
+.certificates-section img:hover {
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
 }
