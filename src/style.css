@@ -93,6 +93,12 @@ p {
   color: var(--secondary-color);
 }
 
+.featured-projects-section p {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
 footer .social-media {
   margin-left: 300px;
   margin-right: 300px;
