@@ -199,13 +199,17 @@ footer .credit-footer {
     font-size: 25px;
   }
 
+  .about-section p {
+    font-size: 25px;
+  }
+
   .about-section .about-links {
-    padding: 8px 12px;
+    padding: 10px 15px;
     margin: 15px;
   }
 
   .navigation-links a {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
