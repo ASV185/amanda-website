@@ -217,10 +217,22 @@ footer .credit-footer {
   .larger-navbar {
     display: none;
   }
+
+  .skills-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 992px) {
   .larger-paragraph {
     display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .certificates-section .grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
