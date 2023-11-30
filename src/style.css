@@ -198,10 +198,25 @@ footer .credit-footer {
   h3 {
     font-size: 25px;
   }
+
+  .about-section .about-links {
+    padding: 8px 12px;
+    margin: 15px;
+  }
+
+  .navigation-links a {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 768px) {
   .larger-navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .larger-paragraph {
     display: none;
   }
 }
