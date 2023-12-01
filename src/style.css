@@ -212,6 +212,13 @@ footer .credit-footer {
   }
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .about-section h3 {
+    font-size: 60px;
+    margin: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .larger-navbar {
     display: none;
