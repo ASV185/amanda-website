@@ -129,6 +129,11 @@ footer .credit-footer {
   font-weight: 500;
 }
 
+.project-section .larger-second-heading {
+  font-size: 57px;
+  font-family: "Cinzel", serif;
+}
+
 .project-section h2 {
   font-size: 35px;
   font-family: "Roboto Slab", serif;
