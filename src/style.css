@@ -129,13 +129,13 @@ footer .credit-footer {
   font-weight: 500;
 }
 
-.project-section .larger-second-heading {
+.project-section h2 {
   font-size: 57px;
   font-family: "Cinzel", serif;
 }
 
-.project-section h2 {
-  font-size: 35px;
+.project-section h3 {
+  font-size: 38px;
   font-family: "Roboto Slab", serif;
   font-weight: 500;
 }
@@ -147,8 +147,8 @@ footer .credit-footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.project-section h3 {
-  font-size: 23px;
+.project-section h4 {
+  font-size: 27px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
@@ -216,6 +216,10 @@ footer .credit-footer {
 
   .navigation-links a {
     font-size: 14px;
+  }
+
+  .project-section .larger-second-heading{
+    font-size: 40px;
   }
 }
 
